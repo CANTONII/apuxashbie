@@ -651,7 +651,7 @@ label {
     z-index: 9;
     margin-top: 0px;
     height: auto;
-    background: #ffcf70;
+    background: #0e52e4;
 }
 
 /* .transparent-header::after {
@@ -666,7 +666,7 @@ label {
 } */
 
 .transparent-header.sticky-menu {
-    background: #ffcf70;
+    background: #0e52e4;
     left: 0;
     margin: auto;
     position: fixed;
@@ -1226,17 +1226,19 @@ label {
     padding: 0px 0;
     position: relative;
     z-index: 1;
-    background-color: #ffcf70;
+    background-color: green;
     background-size: cover;
     justify-content: space-between;
 }
 video {
     object-fit: fill;
     position: absolute;
+    margin-top: 170px;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    z-index: -999;
   }
   .video-wrapper {
     border: 0px solid #000000;
@@ -1261,7 +1263,7 @@ video {
 }
 
 .banner-area .banner-content {
-    margin-top: 125px;
+    margin-top: 170px;
     position: relative;
 }
 
@@ -1280,7 +1282,7 @@ video {
 
 .banner-content .sub-title {
     color: green;
-    text-shadow: 3px 5px 0 #ffcf70;
+    text-shadow: 3px 5px 0 #000000;
     text-transform: uppercase;
     font-family: "Gulfsdisplay expanded", sans-serif;
     font-size: 45px;
@@ -1293,7 +1295,7 @@ video {
 
 .banner-content .title {
     font-size: 120px;
-    color: #ffcf70;
+    color: #0e52e4;
     outline-color: #ffcf70;
     line-height: 1;
     letter-spacing: 4px;
@@ -1370,7 +1372,7 @@ video {
 /* About */
 
 .about-bg {
-    background-color: #ffcf70;
+    background-color: green;
     background-position: center;
     background-size: cover;
     padding: 155px 0 120px;
@@ -1803,7 +1805,7 @@ button.slick-arrow {
 
 .token-area {
     /* background-image: url(../img/bg/gamers_bg.jpg); */
-    background-color: #38953c;
+    background-color: green;
     background-position: center;
     background-size: cover;
 }
@@ -1817,7 +1819,7 @@ button.slick-arrow {
     background-size: cover;
     overflow: hidden;
     background-color: #ff7070;
-    border: 5px solid #fff;
+    border: 5px solid #0e52e4;
     border-radius: 8px;
     box-shadow: 0px 3px 7px 0px rgba(255, 165, 0, 0.004);
     position: relative;
@@ -1886,7 +1888,7 @@ button.slick-arrow {
 
 .token-content-wrap .title span {
     display: block;
-    color: #ffcf70;
+    color: #0e52e4;
     transition: 0.3s linear;
 }
 
@@ -1928,7 +1930,7 @@ button.slick-arrow {
 }
 
 .token-item .token-list li:nth-child(2) {
-    background: #ffcf70;
+    background: #0e52e4;
 }
 
 .token-item:hover .token-content-wrap {
@@ -2880,7 +2882,7 @@ button.slick-arrow {
 }
 
 .copyright-text p span {
-    color: #ffcf70;
+    color: #0e52e4;
 }
 
 /* timeline */
